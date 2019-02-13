@@ -50,7 +50,7 @@ class Rental {
 	 * Getting the points that the customer get for renting the movie.
 	 * @return int
 	 */
-	public int getFrequentRenterPoints(){
-		return _movie.getFrequentRenterPoints(_daysRented);
+	public int getPoints(){
+		return _movie.getPoints(_daysRented);
 	}
 }

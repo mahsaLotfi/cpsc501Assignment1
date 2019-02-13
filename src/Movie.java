@@ -77,7 +77,7 @@ public class Movie {
 	 * @param daysRented
 	 * @return int
 	 */
-	public int getFrequentRenterPoints(int daysRented){
-		return _price.getFrequentRenterPoints(daysRented);
+	public int getPoints(int daysRented){
+		return _price.getPoints(daysRented);
 	}
 }

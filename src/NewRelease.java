@@ -17,7 +17,7 @@ public class NewRelease extends Price {
 		return daysRented * 3;
 	}
 
-	public int getFrequentRenterPoints(int daysRented){
+	public int getPoints(int daysRented){
 		return (daysRented > 1) ? 2: 1;
 	}
 }

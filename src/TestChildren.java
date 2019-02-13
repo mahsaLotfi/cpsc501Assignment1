@@ -15,9 +15,9 @@ public class TestChildren {
 	@Test
 	public void TestGetPoint() {
 		
-		assertEquals(1, p1.getFrequentRenterPoints(10));
-		assertEquals(1, p1.getFrequentRenterPoints(1));
-		assertEquals(1, p1.getFrequentRenterPoints(0));
+		assertEquals(1, p1.getPoints(10));
+		assertEquals(1, p1.getPoints(1));
+		assertEquals(1, p1.getPoints(0));
 	}
 	
 	@Test

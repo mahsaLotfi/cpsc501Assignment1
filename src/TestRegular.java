@@ -14,9 +14,9 @@ public class TestRegular {
 	@Test
 	public void TestGetPoint() {
 		
-		assertEquals(1, p1.getFrequentRenterPoints(10));
-		assertEquals(1, p1.getFrequentRenterPoints(1));
-		assertEquals(1, p1.getFrequentRenterPoints(5));
+		assertEquals(1, p1.getPoints(10));
+		assertEquals(1, p1.getPoints(1));
+		assertEquals(1, p1.getPoints(5));
 	}
 	
 	@Test
