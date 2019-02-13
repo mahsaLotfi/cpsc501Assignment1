@@ -22,7 +22,7 @@ class Customer {
 			
 			Rental each = (Rental) rentals.nextElement();
 			
-			frequentRenterPoints += getFrequentRenterPoints(each);
+			frequentRenterPoints += each.getFrequentRenterPoints();
 			
 			//show figures for this rental
 			result += "\t" + each.getMovie().getTitle()+ "\t" + String.valueOf(each.getCharge()) + "\n";
@@ -34,10 +34,5 @@ class Customer {
 		return result;
 	}
 	
-	public int getFrequentRenterPoints(Rental aRental){
-		if ((aRental.getMovie().getPriceCode() == Movie.NEW_RELEASE) && aRental.getDaysRented() > 1) return 2;
-		else return 1;
-	}
-	
-		
+			
 }
