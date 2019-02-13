@@ -2,6 +2,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+/**
+ * Test class for NewRelease class
+ * @author mahsa
+ *
+ */
 public class TestNewRelease {
 	
 	

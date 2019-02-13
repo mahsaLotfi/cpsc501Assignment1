@@ -2,6 +2,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+/**
+ * Test class for Regular class
+ * @author mahsa
+ *
+ */
 public class TestRegular {
 	
 	private Price p1= new Regular();

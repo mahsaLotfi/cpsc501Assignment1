@@ -1,5 +1,11 @@
 
-
+/**
+ * Regular class extends Price abstract class.
+ * This class will calculate the Regular movies charge and points
+ * 
+ * @author mahsa
+ *
+ */
 public class Regular extends Price {
 
 	int getPriceCode() {

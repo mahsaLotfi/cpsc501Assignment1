@@ -2,6 +2,12 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+/**
+ * Test class for Rental class
+ * @author mahsa
+ *
+ */
+
 public class TestRental {
 	
 	private Rental r1;

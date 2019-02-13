@@ -2,6 +2,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+/**
+ * Test class for Children class
+ * @author mahsa
+ *
+ */
 public class TestChildren {
 
 	private Price p1= new Children();

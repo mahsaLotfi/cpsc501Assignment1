@@ -1,4 +1,10 @@
-
+/**
+ * NewRelease class extends Price abstract class.
+ * This class will calculate the New Released movies charge and points
+ * 
+ * @author mahsa
+ *
+ */
 
 public class NewRelease extends Price {
 

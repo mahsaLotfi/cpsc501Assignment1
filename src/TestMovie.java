@@ -2,6 +2,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+/**
+ * Test class for Movie class
+ * @author mahsa
+ *
+ */
 public class TestMovie {
 	
 	private Rental r1;
