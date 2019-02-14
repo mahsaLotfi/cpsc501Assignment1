@@ -6,6 +6,7 @@
  * @author mahsa
  *
  */
+
 class Rental {
 	
 	private Movie _movie;

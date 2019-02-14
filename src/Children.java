@@ -1,4 +1,3 @@
-
 /**
  * Children class extends Price abstract class.
  * This class will calculate the Children movies charge and points
@@ -6,6 +5,7 @@
  * @author mahsa
  *
  */
+
 public class Children extends Price {
 
 	int getPriceCode() {

@@ -7,6 +7,7 @@ import org.junit.Test;
  * @author mahsa
  *
  */
+
 public class TestChildren {
 
 	private Price p1= new Children();

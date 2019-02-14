@@ -6,6 +6,7 @@
  * @author mahsa
  *
  */
+
 public class Regular extends Price {
 
 	int getPriceCode() {
